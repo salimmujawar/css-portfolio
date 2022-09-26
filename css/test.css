@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #001240;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 150px;
+  color: #fff;
+}
+
+.profile-pic {
+  height: 100%;
+  width: auto;
+}
+
+.user-details {
+  background-color: #00A7DB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  flex-wrap: wrap;
+  padding: 0px 15px;
+  flex-grow: 2;  
+}
+
+.home {
+  background-color: #00C1EA;
+}
+.projects {
+  background-color: #94D401;
+}
+.contact {
+  background-color: #61B100;
+}
+
+.home, .projects, .contact {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  columns: #fff;
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon {
+  font-size: 100px;
+}
+
+.resume {
+  background-color: #fff;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+
+}
+
+.flex-row {
+  display: flex;  
+}
+
+.emp-year {
+  padding: 20px 40px;
+}

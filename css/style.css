@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+:root{
+  --primary-:#00A7DB;
+  --secondary-:#00C1EA;
+  --green-:#94D401;
+  --green-light-:#61B100;
+
+
+}
+body {
+  background: #001240;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.navbar .container{  
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+  height:100px;
+  color: #fff;
+}
+
+.navbar img {
+  height: 100%;
+  width: auto;
+}
+
+
+.home,
+.projects,
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;  
+  flex-grow: 2;
+  padding: 20px;
+  background-color: var(--primary-);   
+}
+.home {
+  background-color: var(--secondary-);
+}
+.projects {
+  background-color: var(--green-);
+}
+.contact {
+  background-color: var(--green-light-);
+}
+
+i {
+  padding-left: 5px;
+}
+
+.card {
+  background-color: #fff;  
+}
+.employment i{
+  color: var(--secondary-);
+}
+.card .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  color: #ddd;
+}
+.header h2 {
+  font-size: 18px;
+  color: #444;
+}
+.header i {
+  font-size: 1.7rem;  
+  color: #ddd;
+}
+.card .items {
+  display: flex;  
+  border: 1px solid #ddd;
+
+}
+.items .year {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  border-right: 1px solid #ddd;  
+  color: var(--secondary-);
+}
+.txt-bold {
+  font-weight: bold;
+}
+.desc {
+  padding: 10px;
+}
+.desc .desc-item{
+  display: flex;
+  justify-content: space-between;
+}
+.desc .desc-item{
+  margin-bottom:5px;
+}
+.desc .desc-text{
+  color:#444;
+  padding-right: 20px;
+}
+
+.desc-item h3:last-child {
+  padding-right: 40%;
+}
+
